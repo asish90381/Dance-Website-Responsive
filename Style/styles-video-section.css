@@ -1,0 +1,31 @@
+.video-section{
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  margin-left:20px;  
+}
+@media (max-width:900px){
+ .video-section{
+  grid-template-columns: 1fr;
+  width: auto;
+ } 
+}
+.video-section img{
+  width: 300px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.video-section img:hover{
+  scale: 110%;
+}
+@media(max-width:900px){
+  .video-section div h3{
+    text-align: center;
+  }
+  .video-section img{
+  display: block;
+  margin: auto;
+  width: 80%;
+  }
+}

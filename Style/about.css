@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ebefef;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+body p{
+  line-height: 25px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+}
+
+h1, h2 {
+  color: #494444;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+  line-height: 25px;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+}

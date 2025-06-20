@@ -1,0 +1,107 @@
+body{
+background-color: #ebefef;
+margin:0;
+padding:0;
+font-family: roboto;
+}
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+
+.header{
+  width: 100%;
+  height: 75px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between; 
+}
+
+
+.left-section{
+  display: flex;
+  margin-left :50px;
+  align-items: center;
+  font-family: roboto; 
+}
+@media(max-width:900px){
+  .left-section{
+    margin-left: 0px;
+  }
+}
+
+.left-section p{
+  margin-left:45px;
+  cursor: pointer;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight: 600;
+}
+@media (max-width:900px){
+  .left-section p{
+    font-size: 9px;
+    margin-left: 8px;
+    font-weight: 700;
+  }
+  .left-section{
+    margin-left:20px;
+  }
+}
+#blog{
+  margin-right:30px;
+  cursor: pointer;
+}
+
+
+.right-section{
+  display: flex;
+  align-items: center;
+  margin-right: 60px;
+
+}
+
+.right-section .log-in{
+  font-family: roboto;
+  font-weight: 500;
+  font-size:15px;
+  background-color: #dfe6e6;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  box-shadow: 0px 2px 3px rgba(45, 44, 44);
+}
+@media(max-width:900px){
+  .right-section .log-in{
+    font-size:10px;
+    padding: 8px 20px;
+    font-weight: 700;
+    margin-left:-18px;
+    
+  }
+}
+.right-section .sign-up{
+  font-family: roboto;
+  font-weight: 500;
+  font-size:15px;
+  background-color:#0b79fb;
+  color: #ebefef;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  box-shadow: 0px 2px 3px rgba(45, 44, 44);
+}
+@media(max-width:900px){
+  .right-section .sign-up{
+    font-size:10px;
+    padding: 8px 20px;
+    font-weight: 700;
+    margin-left:-10px;
+    
+  }
+}
